@@ -57,5 +57,7 @@
   * https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/enhanced-networking.html
 #### Volume types use cases
   * https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSVolumeTypes.html
+#### VPC Endpoint Services (AWS PrivateLink)
+  * https://docs.aws.amazon.com/vpc/latest/userguide/endpoint-service.html
   
   
