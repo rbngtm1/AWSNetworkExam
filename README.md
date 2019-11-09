@@ -3,6 +3,7 @@
 
 #### How do I implement HA(High Availability) connectivity between my data center and my VPC?
   * https://aws.amazon.com/answers/networking/aws-single-data-center-ha-network-connectivity/
+  * In above link, also see "AWS recommends using one of the following approaches for communicating these route preferences (For a full explanation of VPC routing rule algorithm, please see Configuring Multiple VPN Connections to Your Amazon VPC):" section
 #### Set up VPN connection between AWS VPC and data center and if there is need to implement GRE VPN as standard routing protocol
   * https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/software-vpn-network-to-amazon.html
 #### Link Aggregation Group
@@ -40,5 +41,21 @@
 #### Lambda at the edge
   * monitors cookies in the requests
   * https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-at-the-edge.html
+#### Restricting Access to Amazon S3 Content by Using an Origin Access Identity
+  * https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-restricting-access-to-s3.html
+#### Choosing Between Alias and Non-Alias Records
+  * https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resource-record-sets-choosing-alias-non-alias.html
+#### For high performance computing nodes that will be used to process images and videos
+  * Consider using C5 instance
+  * Consider placing the instances in a placement group
+#### To ensure minimal number of packets can be sent across the network interfaces.
+  * Change the MTU settings on the ethernet interface for each instance
+  * Network Maximum Transmission Unit (MTU) for Your EC2 Instance
+    * https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/network_mtu.html
+    * Maximum MTU in a VPC tunnel is 1,500
+#### Enhanced Networking on Linux
+  * https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/enhanced-networking.html
+#### Volume types use cases
+  * https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSVolumeTypes.html
   
   
