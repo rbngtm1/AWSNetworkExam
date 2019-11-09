@@ -35,5 +35,10 @@
 #### Route 53
   * Active-Active and Active-Passive Failover
     * https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/dns-failover-types.html
+#### How CloudFront Delivers Content to Your Users
+  * https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/HowCloudFrontWorks.html
+#### Lambda at the edge
+  * monitors cookies in the requests
+  * https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-at-the-edge.html
   
   
