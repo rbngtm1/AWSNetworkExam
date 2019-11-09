@@ -30,5 +30,10 @@
 #### Site-to-Site VPN
   * https://docs.aws.amazon.com/vpn/latest/s2svpn/VPC_VPN.html#vpn-route-priority
   * To ensure on-premise devices that are connected to AWS through VPN can reach the resources defined in privated hosted zone, consider using "simple AD" for resolving DNS request.
+#### VPC Peering
+  * https://docs.aws.amazon.com/vpc/latest/userguide/vpc-peering.html
+#### Route 53
+  * Active-Active and Active-Passive Failover
+    * https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/dns-failover-types.html
   
   
