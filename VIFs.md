@@ -3,3 +3,6 @@
 #### Public VIFs
   * allow connection to AWS public endpoints, such as Amazon S3, DynamoDB, and Amazon SQS, with dedicated network performance. Public VIFs allow connectivity to all AWS public IP spaces via AWS advertised routes globally, except in China. Public VIFs can be utilized to access VPCs in different regions. The network traffic used to access these public services remains on the AWS global network backbone.
   * VIFS are 802.1Q VLAN Tags that are provisioned on the physical interface. BGP peers are configured on either end of the VIF. BGP is used on the VIF for dynamic route selection. Hosted accouts are accounts that utilizes sub-rate throughput across a physical Direct Connect connection. VIFS for hosted connection may be created once they're accepted in the target AWS account. 
+#### Private VIFs
+  * Private VIFs allow connections to private services such as Amazon VPC with dedicated network performance. Private VIFs can connect to a Direct Connect Gateway, which can be associated with one or more VGWs in any AWS region except China. Non-AWS prefixes are not advertised. Hosted connections are also supported with Private VIFs.
+  * If you choose to have AWS auto-generate the BFP peer IP CIDR, the IP address for both ends of the connection will be from the 169.254.0.0/16 range.
