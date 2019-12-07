@@ -1,7 +1,9 @@
 
 - https://www.youtube.com/watch?v=SMvom9QjkPk&list=PLlkukGgpsXyvUbJ85RVD7qNJ1mcGKO4_w&index=1
 
-================================================================================================================
+===============================================================================
+https://aws.amazon.com/directconnect/faqs/
+===============================================================================
 #### Direct Connect Requirements
   * Connection Type
     * Dedicated Connections: AWS Direct Connect are provisioned as 1 Gbps or 10 Gbps connections. An AWSDirect Connect connection supports up to 50 Virtual Interfaces(VIF).
