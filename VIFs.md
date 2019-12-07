@@ -1,2 +1,2 @@
 #### VIFs(Virtual Interfaces)
-  * are logical connection between your router and the AWS Direct Connect router. A maximum of 50 VIFs may be created per physical interface. 
+  * are logical connection between your router and the AWS Direct Connect router. A maximum of 50 VIFs may be created per physical interface. BOth pubic and private VIFs can be created on the same Direct Connect connection. All traffic on the Direct Connect connection utilizes 802.1Q VLAN Tagging. VLAN Tagging ensures that traffic is directed between the customer network and the appropriate Public or Private VIF.
