@@ -1,0 +1,7 @@
+#### How to Create VPN Connection
+  * Create a VGW
+  * Attach it to the VPC
+  * Create a CGW
+  * Create a VPN 
+  * Update Route Tables
+  * Configure CGW
