@@ -1,0 +1,2 @@
+# VPC peering
+  * VPC peering cannot be established for IPv6 CPDR block with overlapping IPv4 CIDR block
